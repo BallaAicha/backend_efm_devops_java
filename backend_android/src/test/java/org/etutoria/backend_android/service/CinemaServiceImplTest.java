@@ -30,7 +30,6 @@ public class CinemaServiceImplTest {
     public void setUp() {
         cinema = new Cinema();
         cinema.setId(1L);
-        cinemaRepository = mock(CinemaRepository.class);
         cinemaService = new CinemaServiceImpl(cinemaRepository);
     }
 
